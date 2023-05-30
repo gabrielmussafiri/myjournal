@@ -5,7 +5,7 @@ import data from "./data";
 
 function App() {
   const Data = data.map((item) => {
-    return <Main />;
+    return <Main key={item.id} {...item} />;
   });
 
   return (
