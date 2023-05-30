@@ -1,7 +1,9 @@
 function Header() {
   return (
     <div>
-      <h1> This my Header</h1>
+      <div className="topSection">
+        <h1 className="logo"> My Travel Journal</h1>
+      </div>
     </div>
   );
 }

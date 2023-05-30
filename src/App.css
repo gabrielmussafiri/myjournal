@@ -1,0 +1,11 @@
+.topSection {
+  background-color: brown;
+  width: 1400px;
+  height: 100px;
+}
+.logo {
+  font-size: 2rem;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 30px;
+}
