@@ -1,11 +1,39 @@
 .topSection {
-  background-color: brown;
+  background-color: #f55a5a;
   width: 1400px;
   height: 100px;
+  left: 0px;
+  top: 0px;
 }
 .logo {
   font-size: 2rem;
   color: aliceblue;
   text-align: center;
   padding-top: 30px;
+}
+.section--main {
+  padding-left: 20px;
+  display: flex;
+}
+.section--picture > img {
+  width: 226px;
+  height: 268px;
+  padding-top: 30px;
+  border-radius: 5px;
+}
+.section--text {
+  padding-top: 5px;
+  padding-left: 20px;
+  font-size: 25px;
+}
+.ligne {
+  width: 900px;
+  height: 0px;
+  border: 1px solid #6765;
+}
+.section--title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  color: #2b283a;
 }
